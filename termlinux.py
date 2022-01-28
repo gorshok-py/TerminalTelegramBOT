@@ -6,7 +6,7 @@ from subprocess import check_output
 
 bot = Bot(token='Ваш токен')
 dp = Dispatcher(bot)
-user_id = 157191657
+user_id = $
 
 @dp.message_handler(content_types="text")
 async def process_start_command(message: types.Message):
